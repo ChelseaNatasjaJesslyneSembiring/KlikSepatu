@@ -164,7 +164,7 @@ st.markdown ("""
         object-position: center;
     }
     </style>
-    <div class="img-container"> <img src="app/static/home/foto_1.png"> </div>
+    <div class="img-container"> <img src="https://raw.githubusercontent.com/ChelseaNatasjaJesslyneSembiring/KlikSepatu/main/static/home/foto_1.png"> </div>
 """, unsafe_allow_html=True)
 
 st.markdown ("""
@@ -338,12 +338,12 @@ def product_cards(name, price, url):
 </div>"""
 
 shoe_lists = [
-    {"name": "Prada", "price": "$1250", "pict": "app/static/home/foto_4.jpg"},
-    {"name": "Nodaleto", "price": "$895", "pict": "app/static/home/foto_5.jpeg"},
-    {"name": "Gucci", "price": "$1285", "pict": "app/static/home/foto_6.jpg"},
-    {"name": "Jimmy Choo", "price": "$1095", "pict": "app/static/home/foto_7.jpg"},
-    {"name": "Louboutin", "price": "$1195", "pict": "app/static/home/foto_8.jpeg"},
-    {"name": "Berluti", "price": "$3160", "pict": "app/static/home/foto_9.jpg"},
+    {"name": "Prada", "price": "$1250", "pict": "https://raw.githubusercontent.com/ChelseaNatasjaJesslyneSembiring/KlikSepatu/main/static/home/foto_4.jpg"},
+    {"name": "Nodaleto", "price": "$895", "pict": "https://raw.githubusercontent.com/ChelseaNatasjaJesslyneSembiring/KlikSepatu/main/static/home/foto_5.jpeg"},
+    {"name": "Gucci", "price": "$1285", "pict": "https://raw.githubusercontent.com/ChelseaNatasjaJesslyneSembiring/KlikSepatu/main/static/home/foto_6.jpg"},
+    {"name": "Jimmy Choo", "price": "$1095", "pict": "https://raw.githubusercontent.com/ChelseaNatasjaJesslyneSembiring/KlikSepatu/main/static/home/foto_7.jpg"},
+    {"name": "Louboutin", "price": "$1195", "pict": "https://raw.githubusercontent.com/ChelseaNatasjaJesslyneSembiring/KlikSepatu/main/static/home/foto_8.jpeg"},
+    {"name": "Berluti", "price": "$3160", "pict": "https://raw.githubusercontent.com/ChelseaNatasjaJesslyneSembiring/KlikSepatu/main/static/home/foto_9.jpg"},
 ]
 
 all_cards = ""
@@ -361,7 +361,7 @@ st.markdown(f"""<div class="bestpr">
 </div>""", unsafe_allow_html=True)
 
 st.markdown ("""
-    <div class="img-container"> <img src="app/static/home/foto_2-fotor.png"> </div>
+    <div class="img-container"> <img src="https://raw.githubusercontent.com/ChelseaNatasjaJesslyneSembiring/KlikSepatu/main/static/home/foto_2-fotor.png"> </div>
 """, unsafe_allow_html=True)
 
 st.markdown ("""
